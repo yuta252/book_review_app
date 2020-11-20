@@ -28,6 +28,7 @@ gem 'rack-cors'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'bullet'
 end
 
 group :development do
@@ -49,3 +50,8 @@ gem 'faker'
 
 # Customize Json
 gem 'active_model_serializers'
+
+gem 'counter_culture'
+
+# Upload image files
+gem 'paperclip'

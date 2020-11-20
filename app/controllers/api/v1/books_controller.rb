@@ -2,7 +2,8 @@ class Api::V1::BooksController < ApplicationController
   before_action :load_book, only: :show
 
   def index
-    @books = Book.all
+    # N + 1問題を解決するためにBookモデルにreviewモデルもいれる
+    @books = Book.all.includes(:reviews)
     books_serializer = parse_json(@books)
     json_response("Index books successfully", true, {books: books_serializer}, :ok)
   end

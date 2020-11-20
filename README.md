@@ -9,3 +9,7 @@ Udemy (RESTful API with Ruby On Rails5)による本のレビューを投稿す�
 # 機能
 
 * deviseによるAPI認証機能
+
+* Facobook ログイン認証機能
+
+* Active model serializerによるJSON responseのカスタム
