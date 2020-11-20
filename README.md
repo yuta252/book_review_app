@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Udemy (RESTful API with Ruby On Rails5)による本のレビューを投稿するAPI機能のデモアプリ
 
-Things you may want to cover:
+# 環境
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# 機能
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* deviseによるAPI認証機能
